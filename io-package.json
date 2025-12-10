@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "refoss",
-    "version": "1.3.3",
+    "version": "1.3.4",
     "news": {
+      "1.3.4": {
+        "en": "Resolve the issue of request timeout after network interruption",
+        "de": "Behebung eines Timeouts bei Anfragen nach Netzwerkunterbrechung",
+        "ru": "Исправление проблемы с задержкой запроса после отключения сети",
+        "pt": "Correção de um problema com o tempo limite de solicitação após uma interrupção da rede",
+        "nl": "Probleem met het oplossen van verzoek-timeouts na een netwerkonderbreking",
+        "fr": "Correction d'un délai d'attente de demande après une interruption du réseau",
+        "it": "Risolvere il problema del timeout delle richieste dopo l'interruzione della rete",
+        "es": "Reparar el problema del tiempo de espera de la solicitud después de la interrupción de la red",
+        "pl": "Naprawienie problemu z upływem czasu żądania po przerwie sieci",
+        "uk": "Виправлення проблеми з закінченням часу запиту після перерви мережі",
+        "zh-cn": "修复网络中断后请求超时的问题"
+      },
       "1.3.3": {
         "en": "Fix the issue of json",
         "de": "Behebt das Problem mit json",
@@ -93,19 +106,6 @@
         "pl": "Kompatybilny z node v24; Rozwiąż błąd npm test",
         "uk": "Сумісний з node v24; Розв'язати помилку npm test",
         "zh-cn": "兼容node v24; 解决npm test的报错"
-      },
-      "1.2.1": {
-        "en": "Formatting the code",
-        "de": "Formatierung des Codes",
-        "ru": "Форматирование кода",
-        "pt": "Formatação do código",
-        "nl": "Formatering van de code",
-        "fr": "Formatage du code",
-        "it": "Formattazione del codice",
-        "es": "Formato del código",
-        "pl": "Formatowanie kodu",
-        "uk": "Форматування коду",
-        "zh-cn": "格式化代码"
       }
     },
     "titleLang": {
