@@ -86,7 +86,7 @@ jobs:
         uses: actions/setup-node@v4  # 必须v4+（v3及以下OIDC支持不全）
         with:
           node-version: 20
-          registry-url: https://registry.npmjs.org/ # 必须是官方registry
+          registry-url: https://registry.npmjs.org/
 
       - name: Install dependencies
         run: npm ci
