@@ -66,20 +66,8 @@ jobs:
        - uses: ioBroker/testing-action-deploy@v1
          with:
            node-version: '20.x'
-           # npm-token: ${{ secrets.NPM_TOKEN }}
+           npm-token: ${{ secrets.NPM_TOKEN }}
            github-token: ${{ secrets.GITHUB_TOKEN }}
            sentry-token: ${{ secrets.SENTRY_AUTH_TOKEN }}
            sentry-project: "iobroker-refoss"
            sentry-version-prefix: "iobroker.refoss"
-  publish:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          registry-url: https://registry.npmjs.org/
-      - run: npm install
-      - run: npm publish
-        #env:
-          #NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
