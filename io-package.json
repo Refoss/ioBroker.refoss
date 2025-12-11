@@ -29,19 +29,6 @@
         "uk": "Виправляє проблему з json",
         "zh-cn": "修复 json 的问题"
       },
-      "1.3.2": {
-        "en": "Fix the issue of check-and-lint",
-        "de": "Behebt das Problem mit check-and-lint",
-        "ru": "Исправляет проблему с проверкой и линтером",
-        "pt": "Corrige o problema do check-and-lint",
-        "nl": "Verhelpt het probleem met check-and-lint",
-        "fr": "Corrige le problème lié au check-and-lint",
-        "it": "Corregge il problema con check-and-lint",
-        "es": "Corrige el problema con check-and-lint",
-        "pl": "Naprawia problem z check-and-lint",
-        "uk": "Виправляє проблему з check-and-lint",
-        "zh-cn": "修复 check-and-lint 的问题"
-      },
       "1.3.1": {
         "en": "Fix the issue of device data update failure after network switch",
         "de": "Behebt das Problem, dass die Aktualisierung der Gerätedaten nach einem Netzwechsel fehlschlägt",
@@ -165,8 +152,7 @@
       {
         "js-controller": ">=6.0.11"
       }
-    ],
-    "installedFrom": "iobroker.refoss@1.3.0"
+    ]
   },
   "native": {},
   "objects": [],

@@ -71,3 +71,24 @@ jobs:
            sentry-token: ${{ secrets.SENTRY_AUTH_TOKEN }}
            sentry-project: "iobroker-refoss"
            sentry-version-prefix: "iobroker.refoss"
+
+  publish:
+    runs-on: ubuntu-latest
+    # 必须在job级别设置permissions，且id-token为write
+    permissions:
+      id-token: write   # OIDC认证核心权限（必填）
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4  # 必须v4+（v3及以下OIDC支持不全）
+        with:
+          node-version: 20
+          registry-url: https://registry.npmjs.org/ # 必须是官方registry
+
+      - name: Install dependencies
+        run: npm ci
+      - name: Publish to npm
+        run: npm publish --provenance --access public # 首次发布必须加--access public
