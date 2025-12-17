@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "refoss",
-    "version": "1.3.4",
+    "version": "1.3.5",
     "news": {
+      "1.3.5": {
+        "en": "Improve test and lease.yml",
+        "de": "Test-and-release.yml verbessern",
+        "ru": "Совершенствование test-and-release.yml",
+        "pt": "Aproveite o test-and-release.yml",
+        "nl": "Test-and-release.yml verbeteren",
+        "fr": "Améliorer test-and-release.yml",
+        "it": "Migliorare test-and-release.yml",
+        "es": "Mejorar test-and-release.yml",
+        "pl": "Ulepszenie test-and-release.yml",
+        "uk": "Поліпшення test-and-release.yml",
+        "zh-cn": "完善test-and-release.yml"
+      },
       "1.3.4": {
         "en": "Resolve the issue of request timeout after network interruption",
         "de": "Behebung eines Timeouts bei Anfragen nach Netzwerkunterbrechung",
@@ -80,19 +93,6 @@
         "pl": "Kompatybilny z node v24; rozwiąż błąd npm test",
         "uk": "Сумісний з node v24; вилучити невживаний код",
         "zh-cn": "兼容node v24; 删除不必要的代码"
-      },
-      "1.2.2": {
-        "en": "Compatible with node v24; solve the error of npm test",
-        "de": "Kompatibel mit node v24; Lösen Sie den Fehler von npm test",
-        "ru": "Совместим с node v24; решить ошибку npm test",
-        "pt": "Formatação do código",
-        "nl": "Compatibel met node v24; Los de fout op van npm test",
-        "fr": "Compatible avec node v24; Résoudre l'erreur de npm test",
-        "it": "Compatibile con node v24; Risolvere l'errore di npm test",
-        "es": "Compatible con node v24; Resolver el error de npm test",
-        "pl": "Kompatybilny z node v24; Rozwiąż błąd npm test",
-        "uk": "Сумісний з node v24; Розв'язати помилку npm test",
-        "zh-cn": "兼容node v24; 解决npm test的报错"
       }
     },
     "titleLang": {
