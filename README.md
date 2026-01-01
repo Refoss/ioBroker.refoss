@@ -109,7 +109,7 @@ You can find more and detailed information about the device here: [Refoss](https
 
 MIT License
 
-Copyright (c) 2025 zhaochuanling zhaochuanling8@gmail.com,
+Copyright (c) 2025-2026 zhaochuanling zhaochuanling8@gmail.com,
 Bluefox dogafox@gmail.com and
 Refoss support@refoss.net
 
