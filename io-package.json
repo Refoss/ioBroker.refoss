@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "refoss",
-    "version": "1.3.5",
+    "version": "1.4.0",
     "news": {
+      "1.4.0": {
+        "en": "Support EM01P devices",
+        "de": "Unterstützung der EM01P-Geräte",
+        "ru": "Поддержка устройств EM01P",
+        "pt": "Suporte aos dispositivos EM01P",
+        "nl": "Ondersteuning voor EM01P-apparaten",
+        "fr": "Support des appareils EM01P",
+        "it": "Supporto per i dispositivi EM01P",
+        "es": "Soporte para dispositivos EM01P",
+        "pl": "Obsługa urządzenia EM01P",
+        "uk": "Підтримка пристрою EM01P",
+        "zh-cn": "支持EM01P设备"
+      },
       "1.3.5": {
         "en": "Improve test and lease.yml",
         "de": "Test-and-release.yml verbessern",
@@ -80,19 +93,6 @@
         "pl": "Rozwiąż problemy z npm test",
         "uk": "Вирішити проблеми npm test",
         "zh-cn": "修复npm test的问题"
-      },
-      "1.2.3": {
-        "en": "Compatible with node v24; delete the unnecessary code",
-        "de": "Kompatibel mit node v24; entfernen Sie den unnötigen Code",
-        "ru": "Совместим с node v24; удалить ненужный код",
-        "pt": "Compatível com node v24; remover o código inútil",
-        "nl": "Compatibel met node v24; verwijder de onnodige code",
-        "fr": "Compatible avec node v24; supprimer le code inutile",
-        "it": "Compatibile con node v24; eliminare il codice inutile",
-        "es": "Compatible con node v24; eliminar el código innecesario",
-        "pl": "Kompatybilny z node v24; rozwiąż błąd npm test",
-        "uk": "Сумісний з node v24; вилучити невживаний код",
-        "zh-cn": "兼容node v24; 删除不必要的代码"
       }
     },
     "titleLang": {
