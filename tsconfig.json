@@ -7,7 +7,7 @@
       // check JS files
       "allowJs": true,
       "checkJs": true,
-      "module": "commonjs",
+      "module": "CommonJS",
       "moduleResolution": "node",
       "esModuleInterop": true,
       // this is necessary for the automatic typing of the adapter config
@@ -23,6 +23,9 @@
       // "noUnusedParameters": true,
       "useUnknownInCatchVariables": false,
       "target": "es2022",
+      "paths": {
+        "alcalzone-shared/types": ["./node_modules/alcalzone-shared/build/esm/types/index.d.ts"]
+      }
   },
   "include": [
       "**/*.js",
