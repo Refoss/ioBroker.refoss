@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "refoss",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "news": {
+      "1.4.1": {
+        "en": "Upgrade iobroker dependencies",
+        "de": "Upgrade der iobroker Abhängigkeiten",
+        "ru": "Обновление зависимостей iobroker",
+        "pt": "Atualização de dependências do iobroker",
+        "nl": "Upgraden van iobroker afhankelijkheden",
+        "fr": "Mise à jour des dépendances de iobroker",
+        "it": "Aggiornamento delle dipendenze di iobroker",
+        "es": "Actualización de dependencias de iobroker",
+        "pl": "Aktualizacja zależności iobroker",
+        "uk": "Оновити залежності iobroker",
+        "zh-cn": "升级iobroker依赖包"
+      },
       "1.4.0": {
         "en": "Support EM01P devices",
         "de": "Unterstützung der EM01P-Geräte",
@@ -67,19 +80,6 @@
         "pl": "Urządzenia EM06P、EM16P obsługują kombinowane kanały",
         "uk": "Пристрої EM06P、EM16P підтримують комбіновані канали",
         "zh-cn": "EM06P、EM16P设备支持合并通道"
-      },
-      "1.2.4": {
-        "en": "Fix issues of npm test",
-        "de": "Beheben Sie Probleme von npm test",
-        "ru": "Исправить проблемы npm test",
-        "pt": "Corrigir problemas de npm test",
-        "nl": "Repareer problemen met npm test",
-        "fr": "Corriger les problèmes de npm test",
-        "it": "Risolvere i problemi di npm test",
-        "es": "Corregir problemas de npm test",
-        "pl": "Rozwiąż problemy z npm test",
-        "uk": "Вирішити проблеми npm test",
-        "zh-cn": "修复npm test的问题"
       }
     },
     "titleLang": {
