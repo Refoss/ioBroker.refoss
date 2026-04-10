@@ -23,22 +23,22 @@ devDependencies:
     specifier: ^5.1.1
     version: 5.1.1
   '@alcalzone/release-script-plugin-iobroker':
-    specifier: ^5.1.2
-    version: 5.1.2
+    specifier: ^3.7.2
+    version: 3.7.2
   '@alcalzone/release-script-plugin-license':
-    specifier: ^5.1.1
-    version: 5.1.1
+    specifier: ^3.7.0
+    version: 3.7.0
   '@alcalzone/release-script-plugin-manual-review':
-    specifier: ^5.1.1
-    version: 5.1.1
+    specifier: ^3.7.0
+    version: 3.7.0
   '@iobroker/adapter-dev':
-    specifier: ^1.5.0
+    specifier: ^1.4.0
     version: 1.5.0
   '@iobroker/eslint-config':
-    specifier: ^2.2.0
+    specifier: ^2.0.2
     version: 2.2.0(@eslint/eslintrc@3.3.5)(@eslint/js@9.39.4)(@typescript-eslint/eslint-plugin@8.58.0)(@typescript-eslint/parser@8.58.0)(eslint-config-prettier@10.1.8)(eslint-plugin-import@2.32.0)(eslint-plugin-jsdoc@54.7.0)(eslint-plugin-prettier@5.5.5)(eslint-plugin-react-hooks@5.2.0)(eslint-plugin-react@7.37.5)(eslint-plugin-unicorn@60.0.0)(eslint@10.2.0)(globals@16.5.0)(prettier@3.8.1)(typescript-eslint@8.58.0)
   '@iobroker/testing':
-    specifier: ^5.2.2
+    specifier: ^5.2.0
     version: 5.2.2
   '@tsconfig/node20':
     specifier: ^20.1.5
@@ -105,6 +105,13 @@ packages:
       tiny-glob: 0.2.9
     dev: true
 
+  /@alcalzone/release-script-core@3.7.0:
+    resolution: {integrity: sha512-4np4dBziwX/aNRhS/gpK8bwa0wpLe7oomzJ7YTUXf5bUtV/UTpN2a9tm5Bp7ElnisKj6N3AqHl4lVXRo4L9hYg==}
+    engines: {node: '>=12.20'}
+    dependencies:
+      execa: 5.1.1
+    dev: true
+
   /@alcalzone/release-script-core@5.1.1:
     resolution: {integrity: sha512-aN+mmuHQ3h/K9+RBWCUl4/NF/O/kGIa6GhrlK5pposZ5FTSEitzE0wT4yHbtXRWfnfHwDajvOTWYHm9e3RnI0Q==}
     engines: {node: '>=18'}
@@ -135,29 +142,34 @@ packages:
       '@alcalzone/release-script-core': 5.1.1
     dev: true
 
-  /@alcalzone/release-script-plugin-iobroker@5.1.2:
-    resolution: {integrity: sha512-8mqm95NdFUimy10zjKSkqxBFWMs5NebVFHTGQRUTNGzrUnt8s14Nrt8VBTOJw6YTbjhFe49SJDoQ+S4qipdk6g==}
-    engines: {node: '>=18'}
+  /@alcalzone/release-script-plugin-iobroker@3.7.2:
+    resolution: {integrity: sha512-ezXFyxx2irq7my3BmlBUrzT+QHNsldR9MQYkXs7uyH6lXSkudmqq5EiDW9WckT0Cj9YqIUzoOJhhnZA9M+XTvQ==}
+    engines: {node: '>=12.20'}
     dependencies:
-      '@alcalzone/release-script-core': 5.1.1
-      alcalzone-shared: 5.0.0
-      ky: 1.14.3
+      '@alcalzone/release-script-core': 3.7.0
+      alcalzone-shared: 4.0.8
+      axios: 1.11.0
+      fs-extra: 10.1.0
       semver: 7.7.4
+    transitivePeerDependencies:
+      - debug
+      - supports-color
     dev: true
 
-  /@alcalzone/release-script-plugin-license@5.1.1:
-    resolution: {integrity: sha512-fQAuh46MEtJj0mdtq4FiIX08Bzvv6THmpgBMr7VXTfTe/kbUh7CAnz52rzdB4go0s0yqLkGfP9z04/SLLCH0mQ==}
-    engines: {node: '>=18'}
+  /@alcalzone/release-script-plugin-license@3.7.0:
+    resolution: {integrity: sha512-HLnKHr3pc6NJJ7zAa8S/SdC305oEurnkRa9XNP5F6rgrixsxUiynBVh0tpPsVsOTdndm7fNIBRfR66IGnw0cag==}
+    engines: {node: '>=12.20'}
     dependencies:
-      '@alcalzone/release-script-core': 5.1.1
+      '@alcalzone/release-script-core': 3.7.0
+      fs-extra: 10.1.0
       tiny-glob: 0.2.9
     dev: true
 
-  /@alcalzone/release-script-plugin-manual-review@5.1.1:
-    resolution: {integrity: sha512-JQM1v7gVCTiVpuODOiGzvbJ47MtC6CMGSQKo9DSeFF+0+L+maVoWXLjSJ5ZbwqYQWJcrRff/PLu3wuaLWcvrNw==}
-    engines: {node: '>=18'}
+  /@alcalzone/release-script-plugin-manual-review@3.7.0:
+    resolution: {integrity: sha512-lU/KJHQpYhdDcYPxiR3X5BsP9O+bNYfyP8VPE5dF9fwLgTFklbGMOhF9VjdQMiZ8Cyr7fCH7ptw+oHw+UuQutQ==}
+    engines: {node: '>=12.20'}
     dependencies:
-      '@alcalzone/release-script-core': 5.1.1
+      '@alcalzone/release-script-core': 3.7.0
     dev: true
 
   /@alcalzone/release-script-plugin-package@5.1.1:
@@ -1139,6 +1151,15 @@ packages:
       fast-json-stable-stringify: 2.1.0
       json-schema-traverse: 0.4.1
       uri-js: 4.4.1
+    dev: true
+
+  /alcalzone-shared@4.0.8:
+    resolution: {integrity: sha512-Rr0efCjNL9lw7miDvU8exL87Y42ehsLU2jUGNQUphhnlvxnTMrHeApWgoOSGZvsE2PhxC3KO7Z+VpQ/IbuV3aA==}
+    engines: {node: '>=12'}
+    dependencies:
+      debug: 4.4.3(supports-color@8.1.1)
+    transitivePeerDependencies:
+      - supports-color
     dev: true
 
   /alcalzone-shared@5.0.0:
@@ -2392,6 +2413,15 @@ packages:
     engines: {node: '>=12.20.0'}
     dependencies:
       fetch-blob: 3.2.0
+    dev: true
+
+  /fs-extra@10.1.0:
+    resolution: {integrity: sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==}
+    engines: {node: '>=12'}
+    dependencies:
+      graceful-fs: 4.2.11
+      jsonfile: 6.2.0
+      universalify: 2.0.1
     dev: true
 
   /fs-extra@11.3.4:
