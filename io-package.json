@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "refoss",
-    "version": "1.4.1",
+    "version": "1.4.2",
     "news": {
+      "1.4.2": {
+        "en": "Fix license",
+        "de": "Behebung der Lizenzprobleme",
+        "ru": "Исправление проблем с лицензией",
+        "pt": "Correção de problemas com a licença",
+        "nl": "Oplossen van licentieproblemen",
+        "fr": "Correction des problèmes de licence",
+        "it": "Correzione dei problemi con la licenza",
+        "es": "Corrección de problemas con la licencia",
+        "pl": "Naprawa problemów z licencją",
+        "uk": "Виправлення проблеми з ліцензією",
+        "zh-cn": "修复许可证"
+      },
       "1.4.1": {
         "en": "Upgrade iobroker dependencies",
         "de": "Upgrade der iobroker Abhängigkeiten",
@@ -67,19 +80,6 @@
         "pl": "Naprawia błąd polegający na braku aktualizacji danych urządzenia po zmianie sieci",
         "uk": "Виправлено помилку, через яку після зміни мережі не оновлювалися дані пристрою",
         "zh-cn": "修复设备在切换网络后无法更新数据的问题"
-      },
-      "1.3.0": {
-        "en": "EM06P、EM16P devices support merged channels",
-        "de": "EM06P、EM16P-Geräte unterstützen zusammengeführte Kanäle",
-        "ru": "Устройства EM06P、EM16P поддерживают объединенные каналы",
-        "pt": "Dispositivos EM06P、EM16P suportam canais combinados",
-        "nl": "EM06P、EM16P-apparaten ondersteunen samengevoegde kanalen",
-        "fr": "Les appareils EM06P、EM16P prennent en charge les canaux combinés",
-        "it": "I dispositivi EM06P、EM16P supportano canali combinati",
-        "es": "Los dispositivos EM06P、EM16P admiten canales combinados",
-        "pl": "Urządzenia EM06P、EM16P obsługują kombinowane kanały",
-        "uk": "Пристрої EM06P、EM16P підтримують комбіновані канали",
-        "zh-cn": "EM06P、EM16P设备支持合并通道"
       }
     },
     "titleLang": {
