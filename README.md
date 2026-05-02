@@ -26,6 +26,9 @@ You can find more and detailed information about the device here: [Refoss](https
 | Refoss Smart Energy Monitor, EM06 | >= v2.3.8 |
 
 ## Changelog
+### **WORK IN PROGRESS**
+- (copilot) Adapter requires node.js >= 22 now
+
 ### 1.4.2 (2026-04-10)
 
 - (zhoulinyue) Fix license
