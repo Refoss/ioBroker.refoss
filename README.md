@@ -114,6 +114,8 @@ You can find more and detailed information about the device here: [Refoss](https
 
 - (zhaochuanling) first release
 
+[Older changelogs can be found there](CHANGELOG_OLD.md)
+
 ## License
 
 MIT License
