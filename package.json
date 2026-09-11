@@ -25,7 +25,7 @@
     "url": "git+https://github.com/Refoss/ioBroker.refoss.git"
   },
   "engines": {
-    "node": ">= 20"
+    "node": ">= 22"
   },
   "dependencies": {
     "@apollon/iobroker-tools": "^0.3.0",
